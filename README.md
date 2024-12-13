@@ -18,7 +18,9 @@ L'objectif de ce projet est de créer une API REST permettant de gérer des lanc
 - **GET** "localhost:8081/api/rollDice" : Permet de lancer un dé à 6 faces et de récupérer le résultat.
 - **GET** "localhost:8081/api/rollDices/{count}" : Permet de lancer plusieurs dés à 6 faces et de récupérer les résultats.
 - **GET** "localhost:8081/api/history" : Permet de consulter l'historique des lancés de dés effectués.
-- **GET** "localhost:8081/swagger-ui/index.html" : Permet de consulter la documentation de l'API.
+- **GET** "localhost:8081/swagger-ui/index.html" : Permet de consulter la documentation de l'API. (http://localhost:8081/swagger-ui/index.html)
+
+
 ## Installation
 - Cloner le projet "https://github.com/Master1-MIAGE-UCA/oil-td-spring-SachaHassan.git"
 - Utilisez la commande à la racine du projet `.\mvnw spring-boot:run` pour lancer le projet.
